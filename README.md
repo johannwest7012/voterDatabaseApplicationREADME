@@ -1,5 +1,11 @@
 # voterDatabaseApplicationREADME
 
+## Utilizes 
+### - SQL 
+### - PHP 
+### - HTML 
+### - CSS 
+
 A full-stack web application accessing an SQL database containing North Carolina voter registration data records. The database containing over 350,000 data points, each with 51 possible individual data attributes . The web application allows front-end mutation of data within the database, including updates, insertions, and deletions, while also providing tools to efficiently locate and view specific data points. Raw code is not available to the public due to this project being academic. 
 
 ## Demonstration of web application functions: 
