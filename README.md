@@ -2,6 +2,52 @@
 
 A full-stack web application accessing an SQL database containing North Carolina voter registration data records. The database containing over 350,000 data points, each with 51 possible individual data attributes . The web application allows front-end mutation of data within the database, including updates, insertions, and deletions, while also providing tools to efficiently locate and view specific data points.
 
+## Demonstration of web application functions: 
+
+## Front page 
+
+![](voterDataImages/Screenshot(74).png)
+
+## Searching a voter in a database 
+
+![](voterDataImages/Screenshot(75).png)
+
+## The following pictures demostrate inserting a new voter and their information into the database (some information can be left blank if chosen, however some information is essential and will not allow an insert without it) 
+
+![](voterDataImages/Screenshot(76).png)
+![](voterDataImages/Screenshot(77).png)
+![](voterDataImages/Screenshot(78).png)
+![](voterDataImages/Screenshot(79).png)
+![](voterDataImages/Screenshot(80).png)
+![](voterDataImages/Screenshot(81).png)
+![](voterDataImages/Screenshot(82).png)
+
+## Now we will search for the fictional voter we just inserted into the database (Luke Skywalker)
+
+![](voterDataImages/Screenshot(83).png)
+
+## Now we will demostrate deleting the voter we just inserted. 
+
+![](voterDataImages/Screenshot(84).png)
+![](voterDataImages/Screenshot(85).png)
+
+## We can see that the voter is no longer in the database
+
+![](voterDataImages/Screenshot(86).png)
+
+## Later additions include the ability to do the following 
+### - View districts of a voter 
+### - See the time and date of the last update (insert, update, or delete)
+### - Update a specific voter's address
+### - View the recent history of changes to the database 
+### - View new voters in the database (voters inserted in the last 30 days) 
+
+![](voterDataImages/Screenshot(128).png)
+
+
+
+
+
 
 Description of the Normaliztion process to acheive 3NF:   <br/> <br/> 
 	The data as taken from the MECKNC source was consistent with having only one piece of information in each cell. The data as taken also did not have any repeating columns, in the sense that the columns displayed the exact same information or were titled the same. Therefore, as taken from the source, the data when loaded into the made tables was already in First Normal Form. It was divided into the unique attributes as listed : precinct_desc, party_cd, race_code, ethnic_code, sex_code, age, pct_portion, first_name, middle_name, last_name, name_suffix_lbl, full_name_mail, mail_addr1, mail_addr2, mail_city_state_zip, house_num, street_dir, street_name, street_type_cd, street_sufx_cd, unit_num, res_city_desc, state_cd, zip_code, registr_dt, voter_reg_num, status_cd, municipality_desc, ward_desc, cong_dist_desc, super_court_desc, nc_senate_desc, nc_house_desc, county_commiss_desc, school_dist_desc, E1, E1_date, E1_VotingMethod, E1_PartyCd, E2, E2_Date, E2_VotingMethod, E2_PartyCd, E3, E3_Date, E3_VotingMethod, E3_PartyCd, E4, E4_Date, E4_VotingMethod, E4_PartyCd, E5, E5_Date, E5_VotingMethod, and  E5_PartyCd.    <br/> <br/> 
